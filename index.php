@@ -736,230 +736,6 @@ include("includes/header.php");
     </div>
   </section>
   <section>
-    <div class="row paralax " style="
-
-    margin-top:-3rem;
-    min-height: 700px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/slum.jpg');
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-                   position:relative; ">
-
-      <div class="centered">
-
-        <div class="mx-auto">
-
-
-
-
-
-
-          <h6 class="text-uppercase h1"><span style="color: #FF7000;">Our </span>vision</h6>
-
-          <p>To transform communities by inspiring people to create opportunities for themselves and others.</p>
-
-          <h6 class="text-uppercase h1">Our<span style="color: #FF7000;"> Mission</span></h6>
-          <p>To empower the community for a better future</p>
-
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-      <div class="img-overlay" style="padding-right: 0px;
-    padding-left: 0px;">
-
-
-
-
-      </div>
-    </div>
-
-  </section>
-
-
-
-
-
-
-  <div class="content-wrap">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-sm-12 col-md-12">
-          <h2 class="section-heading center">
-            Our <span>Volunteers</span> Says
-          </h2>
-          <p class="subheading text-center">Lorem ipsum dolor sit amet, onsectetur adipiscing cons ectetur nulla. Sed at ullamcorper risus.</p>
-        </div>
-
-        <div class="col-sm-6 col-md-6">
-          <div class="testimonial-1">
-            <div class="media">
-              <img src="images/volunteer-1.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="body">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-              <div class="title">John Doel</div>
-              <div class="company">Businessman</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-6">
-          <div class="testimonial-1">
-            <div class="media">
-              <img src="images/volunteer-2.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="body">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-              <div class="title">Raisa Doel</div>
-              <div class="company">House Keeper</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-6">
-          <div class="testimonial-1">
-            <div class="media">
-              <img src="images/volunteer-3.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="body">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-              <div class="title">Josh Doel</div>
-              <div class="company">Contractor</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-6">
-          <div class="testimonial-1">
-            <div class="media">
-              <img src="images/volunteer-4.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="body">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-              <div class="title">Sasha Doel</div>
-              <div class="company">Freelance</div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-  <div class="content-wrap">
-    <div class="container">
-      <div class="row mb-5 pb-5">
-
-        <div class="col-sm-12 col-md-12">
-          <h2 class="section-heading center">
-            Our <span>Gallery</span>
-          </h2>
-          <p class="subheading text-center">Lorem ipsum dolor sit amet, onsectetur adipiscing cons ectetur nulla. Sed at ullamcorper risus.</p>
-        </div>
-
-        <div class="row popup-gallery gutter-5">
-          <div class="col-xs-12 col-md-4">
-            <div class="box-gallery">
-              <a href="images/bg-events.jpg" title="Gallery #1">
-                <img src="images/bg-events.jpg" alt="" class="img-fluid">
-                <div class="project-info">
-                  <div class="project-icon">
-                    <span class="fa fa-search"></span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="box-gallery">
-              <a href="images/bg-events.jpg" title="Gallery #2">
-                <img src="images/bg-events.jpg" alt="" class="img-fluid">
-                <div class="project-info">
-                  <div class="project-icon">
-                    <span class="fa fa-search"></span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="box-gallery">
-              <a href="images/bg-events.jpg" title="Gallery #3">
-                <img src="images/bg-events.jpg" alt="" class="img-fluid">
-                <div class="project-info">
-                  <div class="project-icon">
-                    <span class="fa fa-search"></span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="box-gallery">
-              <a href="images/bg-events.jpg" title="Gallery #4">
-                <img src="images/bg-events.jpg" alt="" class="img-fluid">
-                <div class="project-info">
-                  <div class="project-icon">
-                    <span class="fa fa-search"></span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="box-gallery">
-              <a href="images/bg-events.jpg" title="Gallery #5">
-                <img src="images/bg-events.jpg" alt="" class="img-fluid">
-                <div class="project-info">
-                  <div class="project-icon">
-                    <span class="fa fa-search"></span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="box-gallery">
-              <a href="images/bg-events.jpg" title="Gallery #6">
-                <img src="images/bg-events.jpg" alt="" class="img-fluid">
-                <div class="project-info">
-                  <div class="project-icon">
-                    <span class="fa fa-search"></span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-  <section>
     <div class="row paralax mTop" style="
 
     /* Set a specific height */
@@ -1021,6 +797,235 @@ include("includes/header.php");
     </div>
 
   </section>
+
+
+
+
+
+  <section>
+
+    <div class="content-wrap">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12 col-md-12">
+            <h2 class="section-heading center">
+              Our <span>Volunteers</span> Says
+            </h2>
+            <p class="subheading text-center">Lorem ipsum dolor sit amet, onsectetur adipiscing cons ectetur nulla. Sed at ullamcorper risus.</p>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <div class="testimonial-1">
+              <div class="media">
+                <img src="images/volunteer-1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
+                <div class="title">John Doel</div>
+                <div class="company">Businessman</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <div class="testimonial-1">
+              <div class="media">
+                <img src="images/volunteer-2.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
+                <div class="title">Raisa Doel</div>
+                <div class="company">House Keeper</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <div class="testimonial-1">
+              <div class="media">
+                <img src="images/volunteer-3.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
+                <div class="title">Josh Doel</div>
+                <div class="company">Contractor</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6">
+            <div class="testimonial-1">
+              <div class="media">
+                <img src="images/volunteer-4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="body">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
+                <div class="title">Sasha Doel</div>
+                <div class="company">Freelance</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="row paralax " style="
+
+    margin-top:-3rem;
+    min-height: 700px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/slum.jpg');
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+                   position:relative; ">
+
+      <div class="centered">
+
+        <div class="mx-auto">
+
+
+
+
+
+
+          <h6 class="text-uppercase h1"><span class="text-warning">Our </span>vision</h6>
+
+          <p>To play a pivotal role in facilitating and spearheading initiatives around advocacy for the sector, whether on behalf of our members or in service thereof..</p>
+
+          <h6 class="text-uppercase h1">Our<span class="text-warning"> Mission</span></h6>
+          <p>To establish ourselves as a knowledge and resource hub for all things related to strategic philanthropy in the region by supporting the sector in its various activities, initiatives and endeavours</p>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="img-overlay" style="padding-right: 0px;
+    padding-left: 0px;">
+
+
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <section>
+
+    <div class="content-wrap">
+      <div class="container">
+        <div class="row mb-5 pb-5">
+
+          <div class="col-sm-12 col-md-12">
+            <h2 class="section-heading center">
+              Our <span>Gallery</span>
+            </h2>
+            <p class="subheading text-center">Lorem ipsum dolor sit amet, onsectetur adipiscing cons ectetur nulla. Sed at ullamcorper risus.</p>
+          </div>
+
+          <div class="row popup-gallery gutter-5">
+            <div class="col-xs-12 col-md-4">
+              <div class="box-gallery">
+                <a href="images/bg-events.jpg" title="Gallery #1">
+                  <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <div class="project-info">
+                    <div class="project-icon">
+                      <span class="fa fa-search"></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="box-gallery">
+                <a href="images/bg-events.jpg" title="Gallery #2">
+                  <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <div class="project-info">
+                    <div class="project-icon">
+                      <span class="fa fa-search"></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="box-gallery">
+                <a href="images/bg-events.jpg" title="Gallery #3">
+                  <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <div class="project-info">
+                    <div class="project-icon">
+                      <span class="fa fa-search"></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="box-gallery">
+                <a href="images/bg-events.jpg" title="Gallery #4">
+                  <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <div class="project-info">
+                    <div class="project-icon">
+                      <span class="fa fa-search"></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="box-gallery">
+                <a href="images/bg-events.jpg" title="Gallery #5">
+                  <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <div class="project-info">
+                    <div class="project-icon">
+                      <span class="fa fa-search"></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="box-gallery">
+                <a href="images/bg-events.jpg" title="Gallery #6">
+                  <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <div class="project-info">
+                    <div class="project-icon">
+                      <span class="fa fa-search"></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
 
 
 
