@@ -12,6 +12,11 @@ include("includes/header.php");
 
     }
 
+    .bg-light {
+
+      background-color: #f8f9fa !important;
+    }
+
     body {
 
       font-family: 'League Spartan', sans-serif;
@@ -40,7 +45,7 @@ include("includes/header.php");
     }
 
     .hero-image {
-      background-image: linear-gradient(#236273b8, #031b21), url(images/annie-spratt-OIuCXxx08yg-unsplash.jpg);
+      background-image: linear-gradient(#236273b8, #031b21), url('images/slum.jpg');
       height: 55rem;
       background-position: center;
       background-repeat: no-repeat;
@@ -84,6 +89,20 @@ include("includes/header.php");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+    }
+
+    .border-primary.text-left:after {
+      -webkit-transform: translateX(0%);
+      transform: translateX(0%);
+    }
+
+    .border-primary:after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      width: 80px;
+      height: 3px;
+      background: #ff6922;
     }
   </style>
   <style>
@@ -270,11 +289,8 @@ include("includes/header.php");
       color: #0e3e4a;
       overflow-x: hidden;
       height: 100%;
-      /*        background-color: #bfbfbf;*/
-      /*        color: #232b2b;*/
       padding-bottom: 0px;
 
-      background-image: linear-gradient(to bottom, #67a6b6d9 0%, #d9dbdcf0 100%), url("images/bg-events.jpg");
       ;
       scroll-behavior: smooth;
     }
@@ -405,7 +421,10 @@ include("includes/header.php");
     .btn-primary {
       background-color: #FF7000;
       color: #ffffff;
+      border-color: #ff7000;
     }
+
+
 
     .headerContent {
 
@@ -618,6 +637,26 @@ include("includes/header.php");
       font-weight: 600;
       color: #262626;
     }
+
+    .block-team-member-1 {
+      padding: 30px;
+      border: 1px solid #e9ecef;
+    }
+
+    .block-team-member-1 figure img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+    }
+
+    .border-primary.text-left:after {
+      -webkit-transform: translateX(0%);
+      transform: translateX(0%);
+    }
+
+    .text-left.pb-1.border-primary.border-success.mb-4 {
+      position: relative;
+    }
   </style>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top previous-active-header" id="navBar">
     <a class="navbar-brand" href="#"><img src="images/cropped-PAMOJA-HOPE-LOGO....png" alt="pamoja forum logo" style="width: 150px;height: 70px;"></a>
@@ -685,99 +724,180 @@ include("includes/header.php");
     <section class="bg-white  mb-5 p-5">
 
 
-      <section class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box ">
-              <figure class="d-flex justify-content-center">
-                <img src="images/people-carry-box-solid.svg" style="width:3rem">
-              </figure>
-              <header class="entry-header">
-                <h3 class="entry-title">Capacity Building</h3>
-              </header>
-              <div class="entry-content">
-                <p>Pamoja Forum serves as a hub for capacity building for its members and partners. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <figure class="d-flex justify-content-center">
-                <img src="images/people-group-solid.svg" style="width:3rem">
-              </figure>
-              <header class="entry-header">
-                <h3 class="entry-title">Networking</h3>
-              </header>
-              <div class="entry-content">
-                <p>Pamoja Forum serves as a hub for networking for its members and partners. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <figure class="d-flex justify-content-center">
-                <img src="images/handshake-solid.svg" style="width:3rem" alt="">
-              </figure>
-              <header class="entry-header">
-                <h3 class="entry-title">Knowledge Dissemination</h3>
-              </header>
-              <div class="entry-content">
-                <p>We aim to foster dialogue and collaboration opportunities amongst our network in order to bolster the capacity and efficacy of strategic philanthropic in Kenya. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class=" " style="margin-top:-3rem">
+    <div class="site-section mb-5" id="about">
       <div class="container">
+        <div class="row mb-5">
 
+          <div class="col-md-5 ml-auto mb-5 order-md-2 aos-init aos-animate rounded" data-aos="fade" style="
 
-        <div class="row my-5 py-5">
+   
+    min-height: 700px;
+    background-image:url('images//Rhône.png');
 
-          <div class="col-md-6"><img src="images/IMG_9871.jpg" style="width:600px;height:600px;object-fit: cover;" alt="" class="rounded-left"></div>
-          <div class="col-md-6 bg-white shadow-blue rounded-right">
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+                   position:relative; ">
+            <!-- <img src="images/Rhône.png" alt="Image" class="img-fluid rounded"> -->
+          </div>
+          <div class="col-md-6 order-md-1 aos-init aos-animate" data-aos="fade">
+            <div class="text-left pb-1 border-primary border-success mb-4">
+              <h2 class="">Who we are</h2>
+            </div>
+            <p>Pamoja Forum- is non-for-profit membership-based platform of philanthropic organizations in Kenya, coming together under the goal 17 of UN sustainable goals, which is the key ingredient which draws all the Goals together and is essential to achieving them: Partnership.
+              The Forum provides opportunities for peers to come together to discuss matters of mutual interest, learn from each other and share resources; to network, participate in a facilitated discussion, share ideas and updates, & jointly identify solutions.
+              By fostering a global sense of togetherness we can ensure everyone is treated equally, invest in developing countries, reduce trade barriers, offer fair access to technology and innovation and celebrate the power of partnership
+            </p>
 
-            <h2 class="section-heading ">About Us</h2>
+            <div class="text-left pb-1 border-primary border-success mb-4">
+              <h2 class="">Our mission</h2>
+            </div>
+            <p class="mb-5">
+              To establish ourselves as a knowledge and resource hub for all things related to strategic philanthropy in the region by supporting the sector in its various activities, initiatives and endeavours
+            </p>
 
-            <p class="pTm">Talents on Go is a community based organization established in 2018 to be a source of inspiration to the
-              youth in Kenya. The premise on which the organization is founded was to seek and contribute towards
-              activities which aim to achieve its strategic objectives of helping the most affected in the community.</p>
-            <p class="pTm">We believe by developing, mentoring and empowering the communities through teaching and facilitating
-              entrepreneurial and life skills, mentorship in creativity, innovation, giving role models and support as a source
-              of sustainable livelihood. We also hope to create employment by harnessing the potential that exists in the
-              youths channeling them to productive activities, new opportunities and a better diverse community.</p>
+            <div class="text-left pb-1 border-primary border-success mb-4">
+              <h2 class=""> Our Vision</h2>
+            </div>
+            <p class="mb-5">
+              To play a pivotal role in facilitating and spearheading initiatives around advocacy for the sector, whether on behalf of our members or in service thereof.
+            </p>
 
-            <p class="pTm">Talents on Go is upbeat about change and that change begins now</p>
-
-
-            <a href="#" class="btn btn-warning py-3">MEET OUR TEAMS</a>
           </div>
 
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="container" style=" margin-top:6rem;">
+      <div class="row  ">
+
+        <div class="col-5 rounded paralax col-md-5 mr-auto mb-5 " style="
+
+   
+    min-height: 700px;
+    background-image:url('images/Oreti.png');
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+                   position:relative; "></div>
+
+
+
+
+        <div class="col-6">
+
+          <div class="text-left pb-1 border-primary border-success mb-4">
+            <h2 class="">What we do</h2>
+          </div>
+          <p>Pamoja Forum serves as a hub for networking, knowledge sharing and capacity
+            building for its members and partners. We aim to foster dialogue and collaboration
+            opportunities amongst our network in order to bolster the capacity and efficacy of
+            strategic philanthropic in Kenya.
+            We believe that progress happens by bringing together people from all walks of life
+            who have the drive and the influence to make positive change.
+          </p>
+
+          <div class="text-left pb-1 border-primary border-success mb-4">
+            <h2 class="">Why we do it</h2>
+          </div>
+          <p class="mb-5">
+
+            The establishment of Pamoja Forum came about as a response to the rapid increase in the
+            number of philanthropic foundations in the region and from the need to create an
+            infrastructure for this emerging philanthropic sector that supports a more strategic and
+            effective culture of giving. </p>
+
+          <div class="text-left pb-1 border-primary border-success mb-4">
+            <h2 class=""> What makes us unique?</h2>
+          </div>
+          <p class="mb-5">
+            We actively invite perspectives from all interested parties. We believe that the
+            challenges our communities are facing can only be solved through engagement with all
+            of us coming together on a common cause.
+          </p>
 
         </div>
+
+
 
 
 
       </div>
+
+
+
+
+      </div>
+
     </section>
 
-
+    <section class="container my-5">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-7 text-center">
+          <h2 class="text-black text-uppercase section-title">Our Services</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box ">
+            <figure class="d-flex justify-content-center">
+              <img src="images/people-carry-box-solid.svg" style="width:3rem">
+            </figure>
+            <header class="entry-header">
+              <h3 class="entry-title">Capacity Building</h3>
+            </header>
+            <div class="entry-content">
+              <p>Pamoja Forum serves as a hub for capacity building for its members and partners. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <figure class="d-flex justify-content-center">
+              <img src="images/people-group-solid.svg" style="width:3rem">
+            </figure>
+            <header class="entry-header">
+              <h3 class="entry-title">Networking</h3>
+            </header>
+            <div class="entry-content">
+              <p>Pamoja Forum serves as a hub for networking for its members and partners. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <figure class="d-flex justify-content-center">
+              <img src="images/handshake-solid.svg" style="width:3rem" alt="">
+            </figure>
+            <header class="entry-header">
+              <h3 class="entry-title">Knowledge Dissemination</h3>
+            </header>
+            <div class="entry-content">
+              <p>We aim to foster dialogue and collaboration opportunities amongst our network in order to bolster the capacity and efficacy of strategic philanthropic in Kenya. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="partners bg-white py-5  ">
       <h1 class="text-center mb-5">Our Members</h1>
       <div class="container py-5">
@@ -812,6 +932,16 @@ include("includes/header.php");
       </div>
 
     </section>
+    <div class="site-section border-top">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2 class="mb-5 text-black ">Become A Member</h2>
+            <p class="mb-0"><a href="#request" class="btn btn-primary py-3 px-5 text-white text-uppercase">Download Whats Needed</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="partners bg-white py-5  ">
       <h1 class="text-center mb-5">Our Partners</h1>
       <div class="container py-5">
@@ -827,7 +957,107 @@ include("includes/header.php");
 
     </section>
 
-
+    <section class="container">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-7 text-center">
+          <h2 class="text-black text-uppercase section-title">Our Leadership</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis, eius, eos consectetur consequuntur sit. Aut, perspiciatis, reprehenderit.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up">
+          <div class="block-team-member-1 text-center rounded">
+            <figure>
+              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM.jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="2612655152" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </figure>
+            <h3 class="font-size-20 text-white">Abass Ahmed</h3>
+            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">IT Manager</span>
+            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, repellat. At, soluta. Repellendus vero, consequuntur!</p>
+            <div class="block-social-1">
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="block-team-member-1 text-center rounded">
+            <figure>
+              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (1).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="2907155073" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </figure>
+            <h3 class="font-size-20 text-white">Leila Ali </h3>
+            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Media and Communications</span>
+            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quia veritatis, nam quam obcaecati fuga.</p>
+            <div class="block-social-1">
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="block-team-member-1 text-center rounded">
+            <figure>
+              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (3).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </figure>
+            <h3 class="font-size-20 text-white">Daniel Otto</h3>
+            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Project coordinator</span>
+            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p>
+            <div class="block-social-1">
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="block-team-member-1 text-center rounded">
+            <figure>
+              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (4).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </figure>
+            <h3 class="font-size-20 text-white">Amina Ahmed</h3>
+            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Human resource manager</span>
+            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p>
+            <div class="block-social-1">
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="block-team-member-1 text-center rounded">
+            <figure>
+              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (2).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </figure>
+            <h3 class="font-size-20 text-white">Yasmin Hussein</h3>
+            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">President</span>
+            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p>
+            <div class="block-social-1">
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="block-team-member-1 text-center rounded">
+            <figure>
+              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (5).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+            </figure>
+            <h3 class="font-size-20 text-white">Ifrah Hassan
+            </h3>
+            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Secretary</span>
+            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p>
+            <div class="block-social-1">
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
