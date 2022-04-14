@@ -671,6 +671,40 @@ include("includes/header.php");
     .bg-lighten-main {
       background-color: #ebf5f8;
     }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 33.333%;
+      /* IE10 */
+      flex: 33.333%;
+      max-width: 33.333%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+      border-radius: 7px;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
   </style>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top previous-active-header" id="navBar">
     <a class="navbar-brand" href="#"><img src="images/cropped-PAMOJA-HOPE-LOGO....png" alt="pamoja forum logo" style="width: 150px;height: 70px;"></a>
@@ -863,50 +897,52 @@ include("includes/header.php");
       </div>
 
     </section>
+    <section class="site-section bg-light">
 
-    <section class="container my-5">
-      <div class="row mb-5 justify-content-center">
-        <div class="col-md-7 text-center">
-          <h2 class="text-black text-uppercase section-title">Our Services</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-          <div class="icon-box ">
-            <figure class="d-flex justify-content-center">
-              <img src="images/people-carry-box-solid.svg" style="width:3rem">
-            </figure>
-            <header class="entry-header">
-              <h3 class="entry-title">Capacity Building</h3>
-            </header>
-            <div class="entry-content">
-              <p>Pamoja Forum serves as a hub for capacity building for its members and partners. </p>
-            </div>
+      <div class="container my-5">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="text-black text-uppercase section-title">Our Services</h2>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <figure class="d-flex justify-content-center">
-              <img src="images/people-group-solid.svg" style="width:3rem">
-            </figure>
-            <header class="entry-header">
-              <h3 class="entry-title">Networking</h3>
-            </header>
-            <div class="entry-content">
-              <p>Pamoja Forum serves as a hub for networking for its members and partners. </p>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box ">
+              <figure class="d-flex justify-content-center">
+                <img src="images/people-carry-box-solid.svg" style="width:3rem">
+              </figure>
+              <header class="entry-header">
+                <h3 class="entry-title">Capacity Building</h3>
+              </header>
+              <div class="entry-content">
+                <p>Pamoja Forum serves as a hub for capacity building for its members and partners. </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <figure class="d-flex justify-content-center">
-              <img src="images/handshake-solid.svg" style="width:3rem" alt="">
-            </figure>
-            <header class="entry-header">
-              <h3 class="entry-title">Knowledge Dissemination</h3>
-            </header>
-            <div class="entry-content">
-              <p>We aim to foster dialogue and collaboration opportunities amongst our network in order to bolster the capacity and efficacy of strategic philanthropic in Kenya. </p>
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <figure class="d-flex justify-content-center">
+                <img src="images/people-group-solid.svg" style="width:3rem">
+              </figure>
+              <header class="entry-header">
+                <h3 class="entry-title">Networking</h3>
+              </header>
+              <div class="entry-content">
+                <p>Pamoja Forum serves as a hub for networking for its members and partners. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <figure class="d-flex justify-content-center">
+                <img src="images/handshake-solid.svg" style="width:3rem" alt="">
+              </figure>
+              <header class="entry-header">
+                <h3 class="entry-title">Knowledge Dissemination</h3>
+              </header>
+              <div class="entry-content">
+                <p>We aim to foster dialogue and collaboration opportunities amongst our network in order to bolster the capacity and efficacy of strategic philanthropic in Kenya. </p>
+              </div>
             </div>
           </div>
         </div>
@@ -972,7 +1008,7 @@ include("includes/header.php");
     </section>
 
     <section class="bg-lighten-main site-section">
-      <div class="container">
+      <div class="container site-section">
 
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
@@ -1013,7 +1049,7 @@ include("includes/header.php");
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
             <div class="block-team-member-1 bg-white mb-3 rounded text-center">
               <figure>
-                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (3).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (2).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
               </figure>
               <h3 class="">Daniel Otto</h3>
               <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Project coordinator</span>
@@ -1028,7 +1064,7 @@ include("includes/header.php");
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
             <div class="block-team-member-1 bg-white mb-3 rounded text-center">
               <figure>
-                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (4).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (3).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
               </figure>
               <h3 class="">Amina Ahmed</h3>
               <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Human resource manager</span>
@@ -1043,7 +1079,7 @@ include("includes/header.php");
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
             <div class="block-team-member-1 bg-white mb-3 rounded text-center">
               <figure>
-                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (2).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (4).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
               </figure>
               <h3 class="">Yasmin Hussein</h3>
               <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">President</span>
@@ -1079,7 +1115,7 @@ include("includes/header.php");
 
 
 
-    <section class="site-section">
+    <section class="site-section d-none">
 
       <div class="content-wrap">
         <div class="container">
@@ -1089,14 +1125,13 @@ include("includes/header.php");
               <h2 class="section-heading center">
                 Our <span>Gallery</span>
               </h2>
-              <p class="subheading text-center">Lorem ipsum dolor sit amet, onsectetur adipiscing cons ectetur nulla. Sed at ullamcorper risus.</p>
             </div>
 
             <div class="row popup-gallery gutter-5">
               <div class="col-xs-12 col-md-4">
                 <div class="box-gallery">
-                  <a href="images/bg-events.jpg" title="Gallery #1">
-                    <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <a href="javascript:void(0);" title="Gallery #1">
+                    <img src="images/gallery/IMG.jpg" alt="" class="img-fluid">
                     <div class="project-info">
                       <div class="project-icon">
                         <span class="fa fa-search"></span>
@@ -1107,8 +1142,8 @@ include("includes/header.php");
               </div>
               <div class="col-xs-12 col-md-4">
                 <div class="box-gallery">
-                  <a href="images/bg-events.jpg" title="Gallery #2">
-                    <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <a href="javascript:void(0);" title="Gallery #2">
+                    <img src="images/gallery/IMG_2.jpg" alt="" class="img-fluid">
                     <div class="project-info">
                       <div class="project-icon">
                         <span class="fa fa-search"></span>
@@ -1119,8 +1154,8 @@ include("includes/header.php");
               </div>
               <div class="col-xs-12 col-md-4">
                 <div class="box-gallery">
-                  <a href="images/bg-events.jpg" title="Gallery #3">
-                    <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <a href="javascript:void(0);" title="Gallery #3">
+                    <img src="images/gallery/IMG_3.jpg" alt="" class="img-fluid">
                     <div class="project-info">
                       <div class="project-icon">
                         <span class="fa fa-search"></span>
@@ -1131,8 +1166,8 @@ include("includes/header.php");
               </div>
               <div class="col-xs-12 col-md-4">
                 <div class="box-gallery">
-                  <a href="images/bg-events.jpg" title="Gallery #4">
-                    <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <a href="javascript:void(0);" title="Gallery #4">
+                    <img src="images/gallery/IMG_3.jpg" alt="" class="img-fluid">
                     <div class="project-info">
                       <div class="project-icon">
                         <span class="fa fa-search"></span>
@@ -1143,8 +1178,8 @@ include("includes/header.php");
               </div>
               <div class="col-xs-12 col-md-4">
                 <div class="box-gallery">
-                  <a href="images/bg-events.jpg" title="Gallery #5">
-                    <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <a href="javascript:void(0);" title="Gallery #5">
+                    <img src="images/gallery/IMG_4.jpg" alt="" class="img-fluid">
                     <div class="project-info">
                       <div class="project-icon">
                         <span class="fa fa-search"></span>
@@ -1155,8 +1190,32 @@ include("includes/header.php");
               </div>
               <div class="col-xs-12 col-md-4">
                 <div class="box-gallery">
-                  <a href="images/bg-events.jpg" title="Gallery #6">
-                    <img src="images/bg-events.jpg" alt="" class="img-fluid">
+                  <a href="javascript:void(0);" title="Gallery #6">
+                    <img src="images/gallery/IMG_5.jpg" alt="" class="img-fluid">
+                    <div class="project-info">
+                      <div class="project-icon">
+                        <span class="fa fa-search"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="box-gallery">
+                  <a href="javascript:void(0);" title="Gallery #6">
+                    <img src="images/gallery/IMG_6.jpg" alt="" class="img-fluid">
+                    <div class="project-info">
+                      <div class="project-icon">
+                        <span class="fa fa-search"></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="box-gallery">
+                  <a href="javascript:void(0);" title="Gallery #6">
+                    <img src="images/gallery/IMG_7.jpg" alt="" class="img-fluid">
                     <div class="project-info">
                       <div class="project-icon">
                         <span class="fa fa-search"></span>
@@ -1173,7 +1232,37 @@ include("includes/header.php");
       </div>
     </section>
 
+    <section class="site-section py-5 my-5">
+      <!-- Photo Grid -->
+      <div class="container ">
+        <div class="col-sm-12 col-md-12">
+          <h2 class="section-heading center">
+            Our <span>Gallery</span>
+          </h2>
+        </div>
+        <div class="row flex-wrap pb-5 mb-5">
+          <div class="column">
+            <img src="images/gallery/IMG.jpg" style="width:100%">
+            <img src="images/gallery/IMG_3.jpg" style="width:100%">
+            <img src="images/gallery/IMG_2.jpg" style="width:100%">
 
+          </div>
+          <div class="column">
+
+            <img src="images/gallery/IMG_4.jpg" style="width:100%">
+
+            <img src="images/gallery/IMG_5.jpg" style="width:100%">
+
+
+          </div>
+          <div class="column">
+
+            <img src="images/gallery/IMG_6.jpg" style="width:100%">
+            <img src="images/gallery/IMG_7.jpg" style="width:100%">
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
