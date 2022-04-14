@@ -657,6 +657,20 @@ include("includes/header.php");
     .text-left.pb-1.border-primary.border-success.mb-4 {
       position: relative;
     }
+
+    @media (min-width: 768px) {
+      .site-section {
+        padding: 5em 0;
+      }
+    }
+
+    .site-section {
+      padding: 2.5em 0;
+    }
+
+    .bg-lighten-main {
+      background-color: #ebf5f8;
+    }
   </style>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top previous-active-header" id="navBar">
     <a class="navbar-brand" href="#"><img src="images/cropped-PAMOJA-HOPE-LOGO....png" alt="pamoja forum logo" style="width: 150px;height: 70px;"></a>
@@ -742,7 +756,7 @@ include("includes/header.php");
     background-repeat: no-repeat;
     background-size: cover; 
                    position:relative; ">
-            <!-- <img src="images/Rhône.png" alt="Image" class="img-fluid rounded"> -->
+
           </div>
           <div class="col-md-6 order-md-1 aos-init aos-animate" data-aos="fade">
             <div class="text-left pb-1 border-primary border-success mb-4">
@@ -932,12 +946,12 @@ include("includes/header.php");
       </div>
 
     </section>
-    <div class="site-section border-top">
+    <div class="site-section border-top  p-5 my-5">
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
             <h2 class="mb-5 text-black ">Become A Member</h2>
-            <p class="mb-0"><a href="#request" class="btn btn-primary py-3 px-5 text-white text-uppercase">Download Whats Needed</a></p>
+            <p class="mb-0"><a href="#request" class="btn btn-primary py-3 px-5 text-white text-uppercase">Download member requirement</a></p>
           </div>
         </div>
       </div>
@@ -957,304 +971,115 @@ include("includes/header.php");
 
     </section>
 
-    <section class="container">
-      <div class="row mb-5 justify-content-center">
-        <div class="col-md-7 text-center">
-          <h2 class="text-black text-uppercase section-title">Our Leadership</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis, eius, eos consectetur consequuntur sit. Aut, perspiciatis, reprehenderit.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up">
-          <div class="block-team-member-1 text-center rounded">
-            <figure>
-              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM.jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="2612655152" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-            </figure>
-            <h3 class="font-size-20 text-white">Abass Ahmed</h3>
-            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">IT Manager</span>
-            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, repellat. At, soluta. Repellendus vero, consequuntur!</p>
-            <div class="block-social-1">
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
-            </div>
+    <section class="bg-lighten-main site-section">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="text-black text-uppercase section-title">Our Leadership</h2>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-          <div class="block-team-member-1 text-center rounded">
-            <figure>
-              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (1).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="2907155073" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-            </figure>
-            <h3 class="font-size-20 text-white">Leila Ali </h3>
-            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Media and Communications</span>
-            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quia veritatis, nam quam obcaecati fuga.</p>
-            <div class="block-social-1">
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-          <div class="block-team-member-1 text-center rounded">
-            <figure>
-              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (3).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-            </figure>
-            <h3 class="font-size-20 text-white">Daniel Otto</h3>
-            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Project coordinator</span>
-            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p>
-            <div class="block-social-1">
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-          <div class="block-team-member-1 text-center rounded">
-            <figure>
-              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (4).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-            </figure>
-            <h3 class="font-size-20 text-white">Amina Ahmed</h3>
-            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Human resource manager</span>
-            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p>
-            <div class="block-social-1">
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-          <div class="block-team-member-1 text-center rounded">
-            <figure>
-              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (2).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-            </figure>
-            <h3 class="font-size-20 text-white">Yasmin Hussein</h3>
-            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">President</span>
-            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p>
-            <div class="block-social-1">
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-          <div class="block-team-member-1 text-center rounded">
-            <figure>
-              <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (5).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-            </figure>
-            <h3 class="font-size-20 text-white">Ifrah Hassan
-            </h3>
-            <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Secretary</span>
-            <p class="px-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quidem, laudantium, illum minus numquam voluptas?</p>
-            <div class="block-social-1">
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
-              <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="mt-5">
-      <div class="row paralax mTop" style="
-
-    /* Set a specific height */
-    min-height: 500px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/IMG_9871.JPG');
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-                   position:relative; ">
-
-        <div class="centered">
-
-          <div class="mx-auto">
-
-
-
-
-
-
-            <h6 class="text-uppercase h1">Become a Volunteer</h6>
-
-
-
-
-            <blockquote class="blockquote">
-              <p class="mb-0" style="color:white; font-size:30px;">"Part of being a person is about helping others."</p>
-              <footer class="blockquote-footer" style="color:white;">Regis Murayi <cite title="Source Title">Source Title</cite></footer>
-            </blockquote>
-
-
-            <form action="vendor/send.php" id="newsletter-form" method="post">
-              <div class="input-group mb-3 mx-0">
-                <input type="email" placeholder="Your Email Address" aria-label="Your Email Address" class="form-control  border-secondary border-right-0" name="volunteer">
-                <div class="input-group-append">
-                  <button type="submit" class="btn btn-warning border-left-0" name="mail"> <i class="fa fa-paper-plane text-lg "></i></button>
-                </div>
-              </div>
-            </form>
-
-
-            <div class="col-md-6"></div>
-          </div>
-
-
-
-        </div>
-
-
-        <div class="img-overlay" style="padding-right: 0px;
-    padding-left: 0px;">
-
-
-
-
-        </div>
-      </div>
-
-    </section>
-
-
-
-
-
-    <section>
-
-      <div class="content-wrap">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-sm-12 col-md-12">
-              <h2 class="section-heading center">
-                Our <span>Volunteers</span> Says
-              </h2>
-              <p class="subheading text-center">Lorem ipsum dolor sit amet, onsectetur adipiscing cons ectetur nulla. Sed at ullamcorper risus.</p>
-            </div>
-
-            <div class="col-sm-6 col-md-6">
-              <div class="testimonial-1">
-                <div class="media">
-                  <img src="images/volunteer-1.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="body">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-                  <div class="title">John Doel</div>
-                  <div class="company">Businessman</div>
-                </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up">
+            <div class="block-team-member-1 bg-white mb-3 rounded text-center">
+              <figure>
+                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM.jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="2612655152" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </figure>
+              <h3 class="">Abass Ahmed</h3>
+              <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">IT Manager</span>
+              <p class="px-3 mb-3"></p>
+              <div class="block-social-1">
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
               </div>
             </div>
-
-            <div class="col-sm-6 col-md-6">
-              <div class="testimonial-1">
-                <div class="media">
-                  <img src="images/volunteer-2.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="body">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-                  <div class="title">Raisa Doel</div>
-                  <div class="company">House Keeper</div>
-                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="block-team-member-1 bg-white mb-3 rounded text-center">
+              <figure>
+                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (1).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="2907155073" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </figure>
+              <h3 class="">Leila Ali </h3>
+              <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Media and Communications</span>
+              <p class="px-3 mb-3"></p>
+              <div class="block-social-1">
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
               </div>
             </div>
-
-            <div class="col-sm-6 col-md-6">
-              <div class="testimonial-1">
-                <div class="media">
-                  <img src="images/volunteer-3.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="body">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-                  <div class="title">Josh Doel</div>
-                  <div class="company">Contractor</div>
-                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="block-team-member-1 bg-white mb-3 rounded text-center">
+              <figure>
+                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (3).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </figure>
+              <h3 class="">Daniel Otto</h3>
+              <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Project coordinator</span>
+              <p class="px-3 mb-3"></p>
+              <div class="block-social-1">
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
               </div>
             </div>
-
-            <div class="col-sm-6 col-md-6">
-              <div class="testimonial-1">
-                <div class="media">
-                  <img src="images/volunteer-4.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="body">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-                  <div class="title">Sasha Doel</div>
-                  <div class="company">Freelance</div>
-                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="block-team-member-1 bg-white mb-3 rounded text-center">
+              <figure>
+                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (4).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </figure>
+              <h3 class="">Amina Ahmed</h3>
+              <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Human resource manager</span>
+              <p class="px-3 mb-3"></p>
+              <div class="block-social-1">
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
               </div>
             </div>
-
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="block-team-member-1 bg-white mb-3 rounded text-center">
+              <figure>
+                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (2).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </figure>
+              <h3 class="">Yasmin Hussein</h3>
+              <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">President</span>
+              <p class="px-3 mb-3"></p>
+              <div class="block-social-1">
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="block-team-member-1 bg-white mb-3 rounded text-center">
+              <figure>
+                <img src="images/team/WhatsApp Image 2022-04-13 at 2.37.56 PM (5).jpeg" alt="Image" class="img-fluid rounded-circle" data-pagespeed-url-hash="3201654994" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+              </figure>
+              <h3 class="">Ifrah Hassan
+              </h3>
+              <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Secretary</span>
+              <p class="px-3 mb-3"></p>
+              <div class="block-social-1">
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-facebook"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-twitter"></span></a>
+                <a href="#" class="btn border-w-2 rounded primary-primary-outline--hover"><span class="icon-instagram"></span></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
 
-    <section>
-      <div class="row paralax " style="
-
-    margin-top:-3rem;
-    min-height: 700px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/slum.jpg');
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-                   position:relative; ">
-
-        <div class="centered">
-
-          <div class="mx-auto">
 
 
 
-
-
-
-            <h6 class="text-uppercase h1"><span class="text-warning">Our </span>vision</h6>
-
-            <p>To play a pivotal role in facilitating and spearheading initiatives around advocacy for the sector, whether on behalf of our members or in service thereof..</p>
-
-            <h6 class="text-uppercase h1">Our<span class="text-warning"> Mission</span></h6>
-            <p>To establish ourselves as a knowledge and resource hub for all things related to strategic philanthropy in the region by supporting the sector in its various activities, initiatives and endeavours</p>
-
-          </div>
-        </div>
-
-
-
-
-
-
-
-
-
-        <div class="img-overlay" style="padding-right: 0px;
-    padding-left: 0px;">
-
-
-
-
-        </div>
-      </div>
-
-    </section>
-
-
-
-
-    <section>
+    <section class="site-section">
 
       <div class="content-wrap">
         <div class="container">
