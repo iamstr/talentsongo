@@ -45,7 +45,7 @@ include("includes/header.php");
     }
 
     .hero-image {
-      background-image: linear-gradient(#236273b8, #031b21), url('images/slum.jpg');
+      background-image: linear-gradient(#236273b8, #031b21), url('images/gallery/IMG_14.jpg');
       height: 55rem;
       background-position: center;
       background-repeat: no-repeat;
@@ -318,7 +318,7 @@ include("includes/header.php");
 
 
     .active-header {
-      background-color: #236273 !important;
+      background-color: #ebf5f8 !important;
       color: black !important;
     }
 
@@ -706,7 +706,7 @@ include("includes/header.php");
       }
     }
   </style>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top previous-active-header" id="navBar">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top previous-active-header" id="navBar">
     <a class="navbar-brand" href="#"><img src="images/cropped-PAMOJA-HOPE-LOGO....png" alt="pamoja forum logo" style="width: 150px;height: 70px;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -717,28 +717,24 @@ include("includes/header.php");
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Our Programmes</a>
+          <a class="nav-link" href="#">About Us</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Our Projects</a>
+          <a class="nav-link" href="#gallery">Our Gallery</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href="#">Our Partners</a>
+          <a class="nav-link " href="#partners">Our Partners</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Join Our Cause</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Blog Post</a>
+          <a class="nav-link " href="#contact">Contact Us</a>
         </li>
 
+
+
         <li class="nav-item">
-          <a class="nav-link " href="#">Become A Volunteer</a>
+          <a class="nav-link " href="#member">Become A Member</a>
         </li>
 
 
@@ -759,7 +755,7 @@ include("includes/header.php");
           philanthropy in the region </p>
         <p>by supporting the sector in its various activities, initiatives and endeavours.</p>
 
-        <a class="my-3 btn hero-btn">Learn More </a>
+        <a class="my-3 btn hero-btn" href="#about">Learn More </a>
       </div>
 
 
@@ -769,10 +765,7 @@ include("includes/header.php");
 
 
 
-    <section class="bg-white  mb-5 p-5">
 
-
-    </section>
 
     <div class="site-section mb-5" id="about">
       <div class="container">
@@ -948,7 +941,7 @@ include("includes/header.php");
         </div>
       </div>
     </section>
-    <section class="partners bg-white py-5  ">
+    <section class="partners bg-white py-5  " id="partners">
       <h1 class="text-center mb-5">Our Members</h1>
       <div class="container py-5">
 
@@ -986,8 +979,8 @@ include("includes/header.php");
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
-            <h2 class="mb-5 text-black ">Become A Member</h2>
-            <p class="mb-0"><a href="#request" class="btn btn-primary py-3 px-5 text-white text-uppercase">Download member requirement</a></p>
+            <h2 class="mb-5 text-black ">How To Become A Member</h2>
+            <p class="mb-0"><a href="#request" class="btn btn-primary py-3 px-5 text-white text-uppercase">Check member requirements</a></p>
           </div>
         </div>
       </div>
@@ -1007,7 +1000,7 @@ include("includes/header.php");
 
     </section>
 
-    <section class="bg-lighten-main site-section">
+    <section class="bg-lighten-main site-section" id="leaders">
       <div class="container site-section">
 
         <div class="row mb-5 justify-content-center">
@@ -1232,7 +1225,7 @@ include("includes/header.php");
       </div>
     </section>
 
-    <section class="site-section py-5 my-5">
+    <section class="site-section py-5 my-5" id="gallery">
       <!-- Photo Grid -->
       <div class="container ">
         <div class="col-sm-12 col-md-12">
@@ -1243,13 +1236,16 @@ include("includes/header.php");
         <div class="row flex-wrap pb-5 mb-5">
           <div class="column">
             <img src="images/gallery/IMG.jpg" style="width:100%">
-            <img src="images/gallery/IMG_3.jpg" style="width:100%">
             <img src="images/gallery/IMG_2.jpg" style="width:100%">
-
+            <img src="images/gallery/IMG_8.jpg" style="width:100%">
+            <img src="images/gallery/IMG_11.jpg" style="width:100%">
           </div>
           <div class="column">
 
+            <img src="images/gallery/IMG_9.jpg" style="width:100%">
+
             <img src="images/gallery/IMG_4.jpg" style="width:100%">
+            <img src="images/gallery/IMG_3.jpg" style="width:100%">
 
             <img src="images/gallery/IMG_5.jpg" style="width:100%">
 
@@ -1259,6 +1255,9 @@ include("includes/header.php");
 
             <img src="images/gallery/IMG_6.jpg" style="width:100%">
             <img src="images/gallery/IMG_7.jpg" style="width:100%">
+            <img src="images/gallery/IMG_13.jpg" style="width:100%">
+            <img src="images/gallery/IMG_14.jpg" style="width:100%">
+
           </div>
         </div>
       </div>
@@ -1269,7 +1268,7 @@ include("includes/header.php");
 
 
 
-    <section class="contact-section" style="margin-top:-5.7rem">
+    <section class="contact-section" style="margin-top:-5.7rem" id="contact">
 
       <div class="contact-us">
         <form action="#">
@@ -1291,22 +1290,20 @@ include("includes/header.php");
           <div class="col-xs-12 col-sm-6 col-md-6">
             <h5>Quick links</h5>
             <ul class="list-unstyled quick-links">
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Our Programmes</a></li>
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Our Projects</a></li>
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Our Partners</a></li>
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+              <li><a href="#about"><i class="fa fa-angle-double-right"></i>About Us</a></li>
+              <li><a href="#gallery"><i class="fa fa-angle-double-right"></i>Our Gallery</a></li>
+              <li><a href="#partners"><i class="fa fa-angle-double-right"></i>Our Partners</a></li>
+
             </ul>
           </div>
 
           <div class="col-xs-12 col-sm-6 col-md-6">
             <h5>Quick links</h5>
             <ul class="list-unstyled quick-links">
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Join Our Cause</a></li>
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Blog </a></li>
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Fund our course</a></li>
-              <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+              <li><a href="#member"><i class="fa fa-angle-double-right"></i>Become A member</a></li>
+              <li><a href="#leaders"><i class="fa fa-angle-double-right"></i>Our Leaders</a></li>
+              <li><a href="contact"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+
             </ul>
           </div>
         </div>
@@ -1322,13 +1319,7 @@ include("includes/header.php");
           </div>
           <hr>
         </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-            <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
-            <p class="h6">&amp;copy All right Reversed.Talents On Go</p>
-          </div>
-          <hr>
-        </div>
+
       </div>
 
 
